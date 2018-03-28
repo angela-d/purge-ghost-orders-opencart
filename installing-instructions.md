@@ -1,6 +1,6 @@
 # Install Instructions
 
-* Download the [purge-ghost-orders-vxx.zip](releases) file and in admin (left navigation menu) :arrow_right: Extensions Installer
+* Download the [purge-ghost-orders-vxx.zip](../../release) file and in admin (left navigation menu) :arrow_right: Extensions Installer
 * Click Upload & select the .zip
 * Clear Modifications cache (orange button, then blue button on the right):
 ![clear modifications](./img/clear-mods.png)
