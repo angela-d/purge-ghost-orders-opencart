@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Purge Ghost Orders</name>
+    <code>purge_ghost_orders_v1</code>
+    <description>Free your database of bloat by purging ghost orders, commonly accumulated from one page checkout addons.</description>
+    <version>1.0</version>
+    <author>Angela</author>
+    <link>https://github.com/z0m8i3</link>
+
+    <file path="admin/controller/common/login.php">
+      <operation error="skip" info="Check for ghosts that meet the threshold upon a new admin login.">
+          <search ><![CDATA[
+            $this->session->data['token'] = token(32);
+            ]]></search>
+          <add position="after"><![CDATA[
+            $this->load->model('extension/module/purge_ghosts');
+
+            $this->model_extension_module_purge_ghosts->ghostCheck();
+          ]]></add>
+      </operation>
+    </file>
+</modification>
