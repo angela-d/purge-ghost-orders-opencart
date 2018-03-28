@@ -5,7 +5,7 @@ For Open Cart 2.3.0.2
 * No technical skill required
 * No configuration; it works it's magic behind the scenes
 
-<img alt="ghost orders icon" align="right" src="./img/purge-ghost-orders.png">
+<a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=33640"><img alt="ghost orders icon" align="right" src="./img/purge-ghost-orders.png" style="border:0;"></a>
 
 Shop owners that utilize one page checkout extensions on the Open Cart platform will find a lot of "ghost orders" or "missing orders" in their system; such records aren't immediately an issue, until you begin utilizing an extension such as [Abandoned Carts Recovery](https://github.com/z0m8i3/abandoned-carts-opencart) -- then you start to realize the scale of which these unnecessary entries cover your system.
 
@@ -26,12 +26,9 @@ Chances are, they will never be called upon so think of it as having thousands, 
 
 * Less is more; the less (useless) records a system has, the less resource usage and work it has to do to sift through and find what it's looking for.  Improvements would be most noticeable on large and busy stores.
 
-***
-
 
 ## [:link: Install Instructions](installing-instructions.md) ##
 
-***
 
 ## Usage ##
 
