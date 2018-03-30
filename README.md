@@ -7,7 +7,7 @@ For Open Cart 2.3.0.2
 
 <a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=33640"><img alt="ghost orders icon" align="right" src="./img/purge-ghost-orders.png" style="border:0;"></a>
 
-Shop owners that utilize one page checkout extensions on the Open Cart platform will find a lot of "ghost orders" or "missing orders" in their system; such records aren't immediately an issue, until you begin utilizing an extension such as [Abandoned Carts Recovery](https://github.com/z0m8i3/abandoned-carts-opencart) -- then you start to realize the scale of which these unnecessary entries cover your system.
+Shop owners that utilize one page checkout extensions on the Open Cart platform will find a lot of "ghost orders" or "missing orders" in their system; such records aren't immediately an issue, until you begin utilizing an extension such as [Abandoned Carts Recovery](https://github.com/angela-d/abandoned-carts-opencart) -- then you start to realize the scale of which these unnecessary entries cover your system.
 
 ### How to Spot Them ###
 While utilizing something like Abandoned Carts, you'll see a lot of "duplicate" records for a user's IP address, that aren't tied to anything else, begin to surface.  This is because one page checkout extensions load asynchronously for field validation to retain the "one page" seamlessness.
@@ -44,8 +44,8 @@ The extension will continue to look for new deletions anytime an admin creates a
 
 ***
 
-If this plugin is beneficial for you & you'd like to contribute to future development, [buy me a coffee](https://www.paypal.me/z0m8i3)! :smile: :coffee:
+If this plugin is beneficial for you & you'd like to contribute to future development, [buy me a coffee](https://www.buymeacoffee.com/angela)! :smile: :coffee:
 
-| PayPal | LiberaPay |
+| PayPal | Buy a Coffee |
 | --- | --- |
-| [![paypal](./img/paypal.png)](https://www.paypal.me/z0m8i3) |  [![liberapay](./img/liberapay.svg)](https://liberapay.com/~34984/donate)
+| [![paypal](./img/paypal.png)](https://www.paypal.me/z0m8i3) |  <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/angela"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy a coffee"><span style="margin-left:5px">Buy a coffee</span></a> |

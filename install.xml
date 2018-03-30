@@ -5,7 +5,7 @@
     <description>Free your database of bloat by purging ghost orders, commonly accumulated from one page checkout addons.</description>
     <version>1.0</version>
     <author>Angela</author>
-    <link>https://github.com/z0m8i3</link>
+    <link>https://github.com/angela-d</link>
 
     <file path="admin/controller/common/login.php">
       <operation error="skip" info="Check for ghosts that meet the threshold upon a new admin login.">
